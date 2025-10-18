@@ -1,0 +1,85 @@
+body {
+    background: #141824;
+    color: #d1d5db;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #232637;
+    border-radius: 15px;
+    padding: 32px;
+    box-shadow: 0 4px 24px #14182482;
+    width: 480px;
+}
+
+h1 {
+    text-align: center;
+    color: #e0e6f3;
+    margin-bottom: 24px;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+input[type="text"], input[type="date"] {
+    flex: 1;
+    padding: 8px;
+    background: #151826;
+    color: #fff;
+    border: 1px solid #39424e;
+    border-radius: 6px;
+}
+
+button {
+    background: #818cf8;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background: #6366f1;
+}
+
+#add-btn {
+    background: #818cf8;
+}
+
+#delete-all-btn {
+    background: #818cf8;
+    margin-bottom: 16px;
+}
+
+#filter-btn {
+    background: #374151;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #191c2b;
+    margin-top: 16px;
+    border-radius: 8px;
+}
+
+th, td {
+    padding: 10px 8px;
+    text-align: left;
+    color: #e0e6f3;
+}
+
+th {
+    background: #232637;
+    font-weight: bold;
+}
